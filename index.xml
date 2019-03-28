@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>kirandachiraju.com on kirandachiraju.com</title>
-    <link>https://example.com/</link>
+    <link>https://devillghost.github.io/</link>
     <description>Recent content in kirandachiraju.com on kirandachiraju.com</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
@@ -11,10 +11,10 @@
     
     <item>
       <title>3 steps to analyze source code with SonarQube by using Docker</title>
-      <link>https://example.com/2019/firstblog/</link>
+      <link>https://devillghost.github.io/2019/firstblog/</link>
       <pubDate>Mon, 25 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/2019/firstblog/</guid>
+      <guid>https://devillghost.github.io/2019/firstblog/</guid>
       <description>&lt;p&gt;Recently I have tried to leverage SonarQube in order to do a static analysis of the java code. In this article, we’re going to be looking at static code analysis with SonarQube in 3 steps by using docker for beginners.&lt;/p&gt;
 
 &lt;p&gt;&lt;h2&gt; What is SonarQube? &lt;/h2&gt;
@@ -30,10 +30,10 @@ SonarQube is an open-source platform for continuous inspection of code quality. 
     
     <item>
       <title></title>
-      <link>https://example.com/about/</link>
+      <link>https://devillghost.github.io/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/about/</guid>
+      <guid>https://devillghost.github.io/about/</guid>
       <description>&lt;p&gt;I&amp;rsquo;m Kiran Kumar, I&amp;rsquo;m a Information Security Engineer. Passionate about learning new things and sharing things I know. I tend to drift towards things that are seemingly difficult. I have interests in a variety of areas playing badminton, trekking, camping, biking etc..&lt;/p&gt;
 </description>
     </item>

@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
     <url>
-      <loc>https://example.com/2019/firstblog/</loc>
+      <loc>https://devillghost.github.io/2019/firstblog/</loc>
       
       <lastmod>2019-03-25T00:00:00+00:00</lastmod>
       
@@ -17,7 +17,7 @@
     </url>
   
     <url>
-      <loc>https://example.com/about/</loc>
+      <loc>https://devillghost.github.io/about/</loc>
       
       
       <changefreq>monthly</changefreq>
@@ -29,7 +29,7 @@
     </url>
   
     <url>
-      <loc>https://example.com/categories/</loc>
+      <loc>https://devillghost.github.io/categories/</loc>
       
       
       <changefreq>monthly</changefreq>
@@ -41,7 +41,7 @@
     </url>
   
     <url>
-      <loc>https://example.com/posts/</loc>
+      <loc>https://devillghost.github.io/posts/</loc>
       
       <lastmod>2019-03-25T00:00:00+00:00</lastmod>
       
@@ -55,7 +55,7 @@
     </url>
   
     <url>
-      <loc>https://example.com/tags/</loc>
+      <loc>https://devillghost.github.io/tags/</loc>
       
       
       <changefreq>monthly</changefreq>
@@ -67,7 +67,7 @@
     </url>
   
     <url>
-      <loc>https://example.com/</loc>
+      <loc>https://devillghost.github.io/</loc>
       
       <lastmod>2019-03-25T00:00:00+00:00</lastmod>
       
