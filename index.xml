@@ -36,13 +36,15 @@ I’ll start by assuming that you already have Docker installed, otherwise the p
 
 &lt;p&gt;By running the below commands can easily install and set up the Sonar server&lt;/p&gt;
 
-&lt;p&gt;&amp;lt; docker pull sonarqube &amp;gt;
-&amp;lt; docker run -d &amp;ndash;name sonarqube -p 9000:9000 -p 9092:9092 sonarqube &amp;gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;docker pull sonarqube
+docker run -d --name sonarqube -p 9000:9000 -p 9092:9092 sonarqube
+&lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;Now, you can browse to &lt;a href=&#34;http://localhost:9000&#34; rel=&#34;nofollow noreferrer&#34; target=&#34;_blank&#34;&gt;http://localhost:9000&lt;/a&gt;, and you’ll be looking at the SonarQube Web GUI. By default, Sonar server uses below details for login.&lt;/p&gt;
 
-&lt;p&gt;User name: admin
-Password: admin&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;Username: admin
+Password: admin
+&lt;/code&gt;&lt;/pre&gt;
 </description>
     </item>
     
