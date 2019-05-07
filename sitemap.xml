@@ -41,6 +41,20 @@
     </url>
   
     <url>
+      <loc>https://devillghost.github.io/</loc>
+      
+      <lastmod>2019-03-25T00:00:00+00:00</lastmod>
+      
+      
+      <changefreq>monthly</changefreq>
+      
+      
+      <priority>0</priority>
+      
+      
+    </url>
+  
+    <url>
       <loc>https://devillghost.github.io/posts/</loc>
       
       <lastmod>2019-03-25T00:00:00+00:00</lastmod>
@@ -56,20 +70,6 @@
   
     <url>
       <loc>https://devillghost.github.io/tags/</loc>
-      
-      
-      <changefreq>monthly</changefreq>
-      
-      
-      <priority>0</priority>
-      
-      
-    </url>
-  
-    <url>
-      <loc>https://devillghost.github.io/</loc>
-      
-      <lastmod>2019-03-25T00:00:00+00:00</lastmod>
       
       
       <changefreq>monthly</changefreq>

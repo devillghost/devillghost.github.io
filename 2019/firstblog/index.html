@@ -20,10 +20,10 @@
   <title>
        
        
-           3 steps to analyze source code with SonarQube by using Docker | kirandachiraju.com
+           3 steps to analyze source code with SonarQube by using Docker | Kiran Dachiraju
        
   </title>
-  <meta name="title" content="3 steps to analyze source code with SonarQube by using Docker | kirandachiraju.com">
+  <meta name="title" content="3 steps to analyze source code with SonarQube by using Docker | Kiran Dachiraju">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -52,7 +52,7 @@
   },
   "genre": "posts",
   
-  "wordcount": 189,
+  "wordcount": 278,
   "url": "https://devillghost.github.io/2019/firstblog/",
   "datePublished": "2019-03-25T00:00:00+00:00",
   "dateModified": "2019-03-25T00:00:00+00:00",
@@ -84,7 +84,7 @@
         <nav class="navbar">
     <div class="container">
         <div class="navbar-header header-logo">
-        	<a href="https://devillghost.github.io">kirandachiraju.com</a>
+        	<a href="https://devillghost.github.io">Kiran Dachiraju</a>
         </div>
         <div class="menu navbar-right">
                 
@@ -100,7 +100,7 @@
 <nav class="navbar-mobile" id="nav-mobile" style="display: none">
      <div class="container">
         <div class="navbar-header">
-            <div>  <a href="javascript:void(0);" class="theme-switch"><i class="iconfont icon-sun"></i></a>&nbsp;<a href="https://devillghost.github.io">kirandachiraju.com</a></div>
+            <div>  <a href="javascript:void(0);" class="theme-switch"><i class="iconfont icon-sun"></i></a>&nbsp;<a href="https://devillghost.github.io">Kiran Dachiraju</a></div>
             <div class="menu-toggle">
                 <span></span><span></span><span></span>
             </div>
@@ -128,7 +128,7 @@
                 </span>
                 
                 <i class="iconfont icon-timer"></i>
-                1 min 
+                2 min 
         </div>
     </header>
     <div class="post-content">
@@ -149,14 +149,32 @@
 
           <p>Recently I have tried to leverage SonarQube in order to do a static analysis of the java code. In this article, we’re going to be looking at static code analysis with SonarQube in 3 steps by using docker for beginners.</p>
 
-<p><h2> What is SonarQube? </h2>
-SonarQube is an open-source platform for continuous inspection of code quality. Using static code analysis, it tries to detect bugs, code smells and security vulnerabilities on 20+ programming languages. SonarQube offers reports on duplicated code, coding standards, unit tests, code coverage, code complexity, comments, bugs, and security vulnerabilities.</p>
+<h2> What is SonarQube? </h2>
+SonarQube is an open-source platform for continuous inspection of code quality. Using static code analysis, it tries to detect bugs, code smells and security vulnerabilities on 20+ programming languages. SonarQube offers reports on duplicated code, coding standards, unit tests, code coverage, code complexity, comments, bugs, and security vulnerabilities.
 
-<p>Alright, let’s start…</p>
+Alright, let’s start…
 
-<p>To start with SonarQube first you should know about what is Sonar Server and Sonar Runner. Sonar Server where the engine that performs the analysis and stores the results, and the analysis must be invoked in some way, which can be done with a client called Sonar Runner aka SonarQube scanner or with a Maven plug-in. You can also integrate the analysis with the IDE that you are using, with a plugin called SonarLint.</p>
+To start with SonarQube first you should know about what is Sonar Server and Sonar Runner. Sonar Server where the engine that performs the analysis and stores the results, and the analysis must be invoked in some way, which can be done with a client called Sonar Runner aka SonarQube scanner or with a Maven plug-in. You can also integrate the analysis with the IDE that you are using, with a plugin called SonarLint.
 
-<p>I’ll start by assuming that you already have Docker installed, otherwise the process is quite simple and can be seen <a href="https://docs.docker.com/v17.12/install/" rel="nofollow noreferrer" target="_blank">here</a>.</p>
+I’ll start by assuming that you already have Docker installed, otherwise the process is quite simple and can be seen [here](https://docs.docker.com/v17.12/install/).
+
+<h2> Below are the 3 steps we’re going to be looking at </h2>
+<ol>
+<li>Setting up Sonar Server</li>
+<li>Setting up Sonar Runner</li>
+<li>Run SonarQube Runner</li>
+</ol>
+<h2> Step 1: Setting up the Sonar Server </h2>
+
+<p>By running the below commands can easily install and set up the Sonar server</p>
+
+<p>&lt; docker pull sonarqube &gt;
+&lt; docker run -d &ndash;name sonarqube -p 9000:9000 -p 9092:9092 sonarqube &gt;</p>
+
+<p>Now, you can browse to <a href="http://localhost:9000" rel="nofollow noreferrer" target="_blank">http://localhost:9000</a>, and you’ll be looking at the SonarQube Web GUI. By default, Sonar server uses below details for login.</p>
+
+<p>User name: admin
+Password: admin</p>
 
     </div>
 
@@ -165,7 +183,7 @@ SonarQube is an open-source platform for continuous inspection of code quality. 
            
             <p class="copyright-item">
                     <span>Words:</span>
-                   <span>189</span>
+                   <span>278</span>
             </p>
             
             <p class="copyright-item">
@@ -259,7 +277,7 @@ SonarQube is an open-source platform for continuous inspection of code quality. 
         
          
 
-		  <span>Made with ❤️in India</span>
+		  <span>Made with ❤️</span>
     </div>
 </footer>
 
